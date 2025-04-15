@@ -23,19 +23,26 @@ nav{
 nav ul{
     display: flex;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 50px;
     list-style: none;
+    padding-right:30px ;
 }
 nav a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.3rem;
+    font-family: 'Libre Baskerville', serif;
 }
 
 nav a:hover{
     cursor: pointer;
-    color: #4FC3F7;
-    transition: #4FC3F7 0.9s ease-in-out;
+    color: #FFB74D;    ;
+    transition: #FFB74D 0.9s ease-in-out;
+}
+nav h1{
+    font-family: 'Dancing Script', cursive;
+    color: #FF9800;
+    font-size: 2.5rem;
 }
 
 hr{
@@ -47,30 +54,75 @@ hr{
 
 #maindish1{
     height: 600px;
-    position: fixed;
+    position: absolute;
+    z-index: 0;
     /* align-items: right; */
-    right: 0; 
+    top: 90px;
+    right: 0;
+    animation-name: circle;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .main-cont{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     align-content: center;
     position: relative;
+    padding-right: 100px;
 }
+
+/* .main-cont #maindish1{
+    position: fixed;
+    z-index: 100;
+} */
 #tagline{
+    font-family: 'Cormorant Garamond', serif;
     text-align: center;
-    color: #B0BEC5;
+    color: #FFE0B2;
     position: relative;
-    left: 40px;
-    top:100px;
+    left: 150px;
+    top:170px;
     font-size: 1.3em;
+    min-width: 100px;
+    max-width: 50vh;
+}
+#tagline h2{
+    font-size: 1.5em;
 }
 #main-text{
+    font-family: 'EB Garamond', serif;
     position: relative;
     color: #FFFFFF;
     top: 200px;
-    right:400px;
-    max-width: 50vh;
+    left: 45px;
+    margin-right: 650px;
+    max-width: 650px;
     font-size: 1.1em;
+}
+
+#btn button{
+    background-color: #FF9800;
+    color: #121212;
+    padding: 17px;
+    border-radius: 30px;
+    position: relative;
+    top: 250px;
+    left: 300px;
+    transition: background-color 1s ease-in-out, transfrom 0.2s ease;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    background-color: #FFB74D;
+}
+
+@keyframes circle {
+    to{
+        transform: rotate(0);
+    }
+    from{
+        transform: rotate(360deg);
+    }
 }
