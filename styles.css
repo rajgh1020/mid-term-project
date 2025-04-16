@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #121212;
+    /* background-color: #121212; */
     /* overflow: hidden; */
+}
+body{
+    background-image: url(images/background-spoon-fork-final.svg);
 }
  
 #logo{
@@ -19,6 +22,7 @@ nav{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: rgba(0,0,0,0.5);
 }
 nav ul{
     display: flex;
@@ -194,4 +198,37 @@ button:hover{
     max-width: 200px;
     color: lightgray;
     font-style: italic;
+}
+
+/* about */
+.about-container{
+    padding-top: 40px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.about-heading{
+    color: #FF9800;
+    font-family: "Great Vibes";
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.about-text{
+    font-family: "Playfair Display";
+    margin: 20px;
+    margin-bottom: 70px;
+    line-height: 1.7em;
+}
+
+.chef-name{
+    font-size: 1.8em;
+    color: #FF8C00;
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+}
+
+.about-text ul{
+    list-style: none;
 }
