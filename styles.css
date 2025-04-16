@@ -136,4 +136,39 @@ img{
 .menu-box{
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+}
+
+.main-dish, .starters, .mexican, .drinks, .south-indian{
+    display: flex;
+    justify-content: center;
+}
+
+/* .main-dish, .starters, .mexican, .drinks, .south-indian > h2{
+    font-size: 2rem;
+    color: #FFFFFF;
+} */
+
+.menu-items{
+    color: #FFFFFF;
+}
+
+.menu-items img{
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.menu-title{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: red;
 }
