@@ -132,3 +132,8 @@ button:hover{
 img{
     height: 200px;
 }
+
+.menu-box{
+    display: flex;
+    justify-content: flex-start;
+}
