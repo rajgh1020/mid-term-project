@@ -242,16 +242,33 @@ button:hover{
     justify-content: center;
     gap: 40px;
 }
+.gal-item{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+}
 
 .gal-item img{
     height: 300px;
     border-radius: 10px;
+    border: #2C2C2C 5px solid;
+    transition: transform 0.3s ease;
 }
 
+.gal-item img:hover{
+    transform: scale(1.2);
+}
 .gal-title{
     text-align: center;
     font-size: 3rem;
     color: #FF9800;
     font-family: "Great Vibes";
     margin-top: 30px;
+}
+
+.gal-sub{
+    font-style: italic;
+    color: lightgrey;
+    text-align: center;
 }
