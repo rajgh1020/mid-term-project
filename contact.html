@@ -23,54 +23,88 @@
         </nav>
         <hr>
     </header>
-    <div class="contact">
-        <div class="cont-into">
-            <h2 class="conn-title">Let's Connect</h2>
-            <p class="conn-sub">Whether you have a question, feedback, or want to place a special order, we’re just a message away. Fill out the form below or reach us directly—we’re always happy to help</p>
-            <h3 class="conn-subt">Visit Us</h3>
-            <h4 class="conn-name">Savory Saga Resturant</h4>
-            <p class="conn-text">123 Flavour Street, Ulsan, South Korea<br> Mon  – Sun: 10:00 AM – 10:00 PM</p>
-            <h3 class="conn-subt">Call Us</h3>
-            <p class="conn-text">Phone: +82-10-1234-5678</p>
-            <h3 class="conn-subt">Email Us</h3>
-            <p class="conn-text">hello@savorysaga.com</p>
-            <h3 class="conn-subt">Follow Us</h3>
-            <p class="conn-text">Instagram | Facebook | TikTok | YouTube</p>
+    <main>
+        <div class="contact">
+            <div class="cont-into">
+                <h2 class="conn-title">Let's Connect</h2>
+                <p class="conn-sub">Whether you have a question, feedback, or want to place a special order, we’re just a message away. Fill out the form below or reach us directly—we’re always happy to help</p>
+                <h3 class="conn-subt">Visit Us</h3>
+                <h4 class="conn-name">Savory Saga Resturant</h4>
+                <p class="conn-text">123 Flavour Street, Ulsan, South Korea<br> Mon  – Sun: 10:00 AM – 10:00 PM</p>
+                <h3 class="conn-subt">Call Us</h3>
+                <p class="conn-text">Phone: +82-10-1234-5678</p>
+                <h3 class="conn-subt">Email Us</h3>
+                <p class="conn-text">hello@savorysaga.com</p>
+                <h3 class="conn-subt">Follow Us</h3>
+                <p class="conn-text">Instagram | Facebook | TikTok | YouTube</p>
+            </div>
+            <div class="conn-form">
+                <h2 class="conn-title">Place Your Order</h2>
+                <form action="">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Phone Number: </label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="address">Delivery Address: </label>
+                    <input type="text" name="address" id="address">
+                    <label for="dish">Select Your Dish</label>
+                    <select name="dish" id="dish">
+                        <option value="">Bruschetta Masal Bites</option>
+                        <option value="">Mini Dosa Tacos</option>
+                        <option value="">Masala Margherita Pizza</option>
+                        <option value="">Pollo Mole Risotto</option>
+                        <option value="">Chettinad Pasta</option>
+                        <option value="">Al Pastor Enchiladas</option>
+                        <option value="">Oaxacan Veggie Quesadilla</option>
+                        <option value="">Golden Ghee Roast Dosa</option>
+                        <option value="">Rasam Biryani Bowl</option>
+                    </select>
+                    <label for="drinks">Select Your Drinks</label>
+                    <select name="drink" id="drink">
+                        <option value="">Spicy Mango Fizz</option>
+                        <option value="">Mango pulp, chili, soda, and lime</option>
+                        <option value="">Coconut Rose Lassi</option>
+                        <option value="">Italian Lemon Basil Cooler</option>
+                    </select>
+                    <label for="notes">Special Instructions</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="E.g. No onions, extra spicy..."></textarea>
+                    <button type="submit">Submit Order</button>
+                    <button type="">Book a reservation</button>
+                </form>
+            </div>
         </div>
-        <div class="conn-form">
-            <h2 class="conn-title">Place Your Order</h2>
-            <form action="">
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" required>
-                <label for="phone">Phone Number: </label>
-                <input type="tel" id="phone" name="phone" required>
-                <label for="address">Delivery Address: </label>
-                <input type="text" name="address" id="address">
-                <label for="dish">Select Your Dish</label>
-                <select name="dish" id="dish">
-                    <option value="">Bruschetta Masal Bites</option>
-                    <option value="">Mini Dosa Tacos</option>
-                    <option value="">Masala Margherita Pizza</option>
-                    <option value="">Pollo Mole Risotto</option>
-                    <option value="">Chettinad Pasta</option>
-                    <option value="">Al Pastor Enchiladas</option>
-                    <option value="">Oaxacan Veggie Quesadilla</option>
-                    <option value="">Golden Ghee Roast Dosa</option>
-                    <option value="">Rasam Biryani Bowl</option>
-                </select>
-                <label for="drinks">Select Your Drinks</label>
-                <select name="drink" id="drink">
-                    <option value="">Spicy Mango Fizz</option>
-                    <option value="">Mango pulp, chili, soda, and lime</option>
-                    <option value="">Coconut Rose Lassi</option>
-                    <option value="">Italian Lemon Basil Cooler</option>
-                </select>
-                <label for="notes">Special Instructions</label>
-                <textarea id="notes" name="notes" rows="3" placeholder="E.g. No onions, extra spicy..."></textarea>
-                <button type="submit">Submit Order</button>
-                <button type="">Book a reservation</button>
-            </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:info@savorysaga.com.com</p>
+                <p>Phone:+82-10-1234-5678</p>
+                <p>Address:123 Flavour Street, Ulsan, South Korea</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu </a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href="">Instagram</a></li>
+                 <li><a href="">Facebook</a></li>
+                 <li><a href="">TikTok</a></li>
+                 <li><a href="">Youtube</a></li>
+                </ul>
+                </div>
         </div>
-    </div>
+        <div class="bottom-bar">
+            <p>&copy; 2025 Savory Saga . All rights reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
