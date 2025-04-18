@@ -334,3 +334,35 @@ label {
   button:hover {
     background-color: #ffa500;
   }
+
+  /* footer */
+
+  /* .footer-container{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  } */
+
+main{
+    height: 100vh;
+  }
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px 10px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
