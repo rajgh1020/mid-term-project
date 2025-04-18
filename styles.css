@@ -82,13 +82,13 @@ hr{
     z-index: 100;
 } */
 #tagline{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Great Vibes', serif;
     text-align: center;
-    color: #FFE0B2;
+    color: #FF9800;
     position: relative;
     left: 150px;
     top:170px;
-    font-size: 1.3em;
+    font-size: 1.5em;
     min-width: 100px;
     max-width: 50vh;
 }
@@ -216,7 +216,7 @@ button:hover{
     font-size: 3rem;
 }
 .about-text{
-    font-family: "Playfair Display";
+    font-family: "EB Garamond","Playfair Display";
     margin: 20px;
     margin-bottom: 70px;
     line-height: 1.7em;
@@ -277,6 +277,7 @@ button:hover{
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 100px;
+    font-family: "EB Garamond";
 }
 
 .conn-title{
