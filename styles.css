@@ -159,7 +159,8 @@ button:hover{
     }
 }
 .active{
-    color: #FF8C00;
+    color: #FFB74D;
+    /* text-decoration: underline; */
 }
 /* menu */
 
